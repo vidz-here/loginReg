@@ -73,7 +73,8 @@
                 var error = $('<span class="errormessage">Name field is required</span>');
                 $('#name').after(error);
                 errorcount++;
-                
+                //Fixed getotp isssue
+                // vommiy
             }
 
             if (email.trim() != '') {
