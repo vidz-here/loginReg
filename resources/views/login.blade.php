@@ -68,11 +68,12 @@
             var confirmPassword = $('#password_confirmation').val();
             $(".errormessage").html('');
             var errorcount = 0;
-            
+
             if (name.trim() === '') {
                 var error = $('<span class="errormessage">Name field is required</span>');
                 $('#name').after(error);
                 errorcount++;
+                
             }
 
             if (email.trim() != '') {
