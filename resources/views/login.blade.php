@@ -75,6 +75,7 @@
                 errorcount++;
                 //Fixed getotp isssue
                 // vommiy
+                // server changes
             }
 
             if (email.trim() != '') {
